@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de Devis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Demande de Devis</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Nos Services</a>
+            <a href="devis.html">Demande de Devis</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="https://formspree.io/f/xxxxxxx" method="POST">
+            <label>Nom :</label>
+            <input type="text" name="nom" required>
+
+            <label>Email :</label>
+            <input type="email" name="email" required>
+
+            <label>Type de service :</label>
+            <select name="service" required>
+                <option value="forage">Forage</option>
+                <option value="rehabilitation">Réhabilitation de forage</option>
+            </select>
+
+            <label>Détails :</label>
+            <textarea name="details" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Entreprise Hamza Forage. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
