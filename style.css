@@ -1,27 +1,79 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
     color: #333;
 }
 
 header {
-    background-color: #0056b3; /* bleu */
+    background-color: #0056b3;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
+header p {
+    margin: 5px 0 15px;
+}
+
 nav a {
     color: white;
-    margin: 0 10px;
+    margin: 0 12px;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #007a3d;
 }
 
 footer {
-    background-color: #007a3d; /* vert */
+    background-color: #007a3d;
     color: white;
     text-align: center;
+    padding: 15px;
+}
+
+/* Formulaire */
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input, form textarea, form select {
+    width: 100%;
     padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003f88;
 }
